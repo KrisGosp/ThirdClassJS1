@@ -13,14 +13,14 @@ const findCircumAreaCircle = radius => {
     return {circumference, area};
 };
 
-console.log(findDiagonal(2));
-console.log(areaTriangleDiffSides(5, 6, 7));
-console.log(findCircumAreaCircle(4));
+findDiagonal(2);
+areaTriangleDiffSides(5, 6, 7);
+findCircumAreaCircle(4);
 
 // Conditional statements and loops
 const largerOfTwo = (a, b) => a > b ? a : b;
 
 const evenOrOdd = a => a % 2 === 0 ? 'even' : 'odd';
 
-console.log(largerOfTwo(1, 3));
-console.log(evenOrOdd(2));
+largerOfTwo(1, 3);
+evenOrOdd(2);
